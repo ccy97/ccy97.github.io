@@ -1,0 +1,83 @@
+/* index */
+
+@font-face {
+  font-family: "Hack";
+  src: url("style/font/Hack.ttf");
+}
+
+@font-face {
+  font-family: "Iansui";
+  src: url("style/font/Iansui.ttf");
+}  
+  
+/* title */
+
+.title {
+  font-family: "Hack";
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  color: #333;
+  font-size: 60px;
+}
+
+.title p {
+  color: #666;
+  font-size: 30px;
+  line-height:0px;
+}
+
+.title img {
+  margin-right: 20px;
+  height: 820px;
+  width: 720px;
+}
+
+/* block */
+.block {
+  font-family: "Hack";
+  background-color: #ddd;
+  position: relative; 
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block h1 {
+  color: #333;
+  font-size: 30px;
+}
+
+.block p {
+  color: #666;
+  font-size: 20px;
+}
+
+.block button {
+  font-family: "Hack";
+  padding: 20px;
+  background-color: #fa0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 20px;
+}
+
+.block img {
+  float: left;
+  margin-right: 20px;
+  height: 120px;
+  width: 120px;
+}
