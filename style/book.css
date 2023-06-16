@@ -1,0 +1,40 @@
+/* book */
+
+@font-face {
+  font-family: "Hack";
+  src: url("style/font/Hack.ttf");
+}
+
+@font-face {
+  font-family: "Iansui";
+  src: url("style/font/Iansui.ttf");
+}  
+
+.book {
+font-family: "Iansui";
+background-color: #ddd;
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.book img {
+margin-right: 20px;
+height: 820px;
+width: 720px;
+}
+
+.book h1 {
+color: #333;
+font-size: 20px;
+display: inline;
+}
+
+.book p {
+color: #666;
+font-size: 20px;
+display: inline;
+}
