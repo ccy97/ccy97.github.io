@@ -1,4 +1,4 @@
-/* book */
+/* film */
 
 @font-face {
   font-family: "Hack";
@@ -10,7 +10,7 @@
   src: url("../style/font/Iansui.ttf");
 }  
 
-.book {
+.block {
   font-family: "Iansui";
   background-color: #ddd;
   display: flex;
@@ -21,25 +21,25 @@
   margin-bottom: 20px;
 }
 
-.book img {
+.block img {
   margin-right: 20px;
   height: 820px;
 }
 
-.book h1 {
+.block h1 {
   color: #333;
   font-size: 20px;
   display: inline;
 }
 
-.book h6 {
+.block h6 {
   color: #666;
   font-size: 20px;
   display: inline;
   padding-right: 20px;
 }
 
-.book p, a {
+.block p, a {
   color: #666;
   font-size: 20px;
   padding-right: 20px;
