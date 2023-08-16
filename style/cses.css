@@ -1,0 +1,11 @@
+/* card */
+
+@font-face {
+    font-family: "Hack";
+    src: url("../style/font/Hack.ttf");
+  }
+  
+  @font-face {
+    font-family: "Iansui";
+    src: url("../style/font/Iansui.ttf");
+  } 
